@@ -100,9 +100,6 @@ async def on_message(message):
     elif msg.lower() == '!help':
         await message.channel.send("No one is going to help you.")
 
-    elif msg.lower() == '!who' :
-        await message.channel.send("Allahu Akbar!")
-
         
 
     # Handling !list command
